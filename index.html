@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashaswini V | My Profile</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #dff5e1, #b7e4c7, #95d5b2);
+            color: #1b4332;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 25px;
+            padding: 45px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(27, 67, 50, 0.2);
+        }
+
+        .profile-icon {
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background: #2d6a4f;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 45px;
+            box-shadow: 0 8px 20px rgba(45, 106, 79, 0.3);
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+            color: #1b4332;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #52796f;
+            margin-bottom: 30px;
+        }
+
+        .about {
+            font-size: 17px;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-top: 25px;
+        }
+
+        .card {
+            background: #f1faee;
+            padding: 25px 15px;
+            border-radius: 18px;
+            transition: 0.3s;
+            border: 1px solid #d8f3dc;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            background: #d8f3dc;
+            box-shadow: 0 10px 20px rgba(27, 67, 50, 0.15);
+        }
+
+        .card .emoji {
+            font-size: 35px;
+            display: block;
+            margin-bottom: 12px;
+        }
+
+        .card h3 {
+            margin-bottom: 8px;
+            color: #2d6a4f;
+        }
+
+        .card p {
+            color: #52796f;
+            font-size: 14px;
+        }
+
+        footer {
+            margin-top: 35px;
+            color: #52796f;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .cards {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="profile-icon">🌿</div>
+
+        <h1>Yashaswini V</h1>
+
+        <p class="subtitle">Engineering Student | Food Lover | Nature Lover</p>
+
+        <p class="about">
+            Hi! I'm <strong>Yashaswini V</strong>. I am an engineering student
+            who enjoys learning new things. I love delicious food, chatting
+            with people, and spending time in nature. Nature gives me peace,
+            happiness, and positive energy. 🌱
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <span class="emoji">🎓</span>
+                <h3>Engineering</h3>
+                <p>I am studying engineering and enjoy learning new skills.</p>
+            </div>
+
+            <div class="card">
+                <span class="emoji">🍕</span>
+                <h3>Food</h3>
+                <p>I love trying and enjoying different kinds of food.</p>
+            </div>
+
+            <div class="card">
+                <span class="emoji">💬</span>
+                <h3>Chatting</h3>
+                <p>I enjoy chatting and spending time with people.</p>
+            </div>
+
+            <div class="card">
+                <span class="emoji">🌳</span>
+                <h3>Nature</h3>
+                <p>Nature is my favorite place to relax and feel peaceful.</p>
+            </div>
+
+            <div class="card">
+                <span class="emoji">✨</span>
+                <h3>My Passion</h3>
+                <p>Learning, exploring, enjoying life, and staying positive.</p>
+            </div>
+
+            <div class="card">
+                <span class="emoji">💚</span>
+                <h3>My Vibe</h3>
+                <p>Simple, friendly, cheerful, and nature-loving.</p>
+            </div>
+
+        </div>
+
+        <footer>
+            Made with 💚 by Yashaswini V
+        </footer>
+
+    </div>
+
+</body>
+</html>
